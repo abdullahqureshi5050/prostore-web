@@ -12,10 +12,10 @@ export const Nav = function App() {
     <Router>
       <div>
         <div style={{justifyContent: 'center',  display: 'flex', backgroundColor: 'grey'}}>
-        <nav style={{flexDirection: 'row', backgroundColor: 'red', width: '25%', display: 'flex', justifyContent: 'space-between', padding: 10}}> 
-              <Link to="/">Home</Link>
+        <nav style={{flexDirection: 'row', backgroundColor: 'lightseagreen', width: '25%', display: 'flex', justifyContent: 'space-between', padding: 10}}> 
+              <Link to="/">ProStorePK</Link>
               <Link to="/dashboard">Dahboard</Link>
-              <Link to="/login">login</Link>
+              <Link to="/login">Login</Link>
           </nav>
         </div>
 
